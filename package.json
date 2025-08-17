@@ -16,10 +16,21 @@
     "manifest",
     "icons",
     "cli",
-    "sharp"
+    "sharp",
+    "web-assets",
+    "favicon-generator",
+    "pwa-icons"
   ],
   "author": "hoyame",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hoyame/website-assets-generator.git"
+  },
+  "homepage": "https://github.com/hoyame/website-assets-generator#readme",
+  "bugs": {
+    "url": "https://github.com/hoyame/website-assets-generator/issues"
+  },
   "engines": {
     "node": ">=18"
   },
