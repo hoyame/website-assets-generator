@@ -1,0 +1,30 @@
+{
+  "name": "website-assets-generator",
+  "version": "1.0.0",
+  "description": "CLI pour générer automatiquement les assets web (favicons, icônes, manifest, browserconfig, meta tags) à partir d'un logo.",
+  "main": "src/generator.js",
+  "bin": {
+    "website-assets-generator": "./bin/cli.js"
+  },
+  "scripts": {
+    "start": "node ./bin/cli.js",
+    "test": "node -e \"console.log('ok')\""
+  },
+  "keywords": [
+    "favicon",
+    "pwa",
+    "manifest",
+    "icons",
+    "cli",
+    "sharp"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "png-to-ico": "^2.1.4",
+    "sharp": "^0.33.4"
+  }
+}
