@@ -18,7 +18,7 @@
     "cli",
     "sharp"
   ],
-  "author": "",
+  "author": "hoyame",
   "license": "MIT",
   "engines": {
     "node": ">=18"
